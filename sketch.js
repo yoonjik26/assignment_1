@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw() {
+<<<<<<< HEAD
 	// clear the background
 	background(107, 174, 239);
 	//set a stroke color
@@ -133,6 +134,18 @@ rect (151, 325, 35, 11, 3, 3, 3, 3);
 	ellipse (150, 150, 90, 90);
 	ellipse (92, 250, 20, 20);
 	ellipse (206, 250, 20, 20);
+=======
+	// clear the background - skyblue
+  background(180, 200, 255);
+
+	// set a fill color white
+	fill(255, 255, 255);
+	// draw ground
+	noStroke();
+	rect(0, 300, 640, 100);
+
+	// set a stroke color
+>>>>>>> PUCD2035-E-F15/master
 
 	fill (126, 59, 19);
 	//draw a circle
@@ -162,8 +175,14 @@ rect (151, 325, 35, 11, 3, 3, 3, 3);
 	rect (145, 150, 10, 5);
 	fill (0, 0, 0)
 	// draw a circle
+<<<<<<< HEAD
 	ellipse (130, 150, 5, 5);
 	ellipse (170, 150, 5, 5);
 	fill (236, 134, 140)
 	ellipse (150, 180, 10, 15);
+=======
+	ellipse(320, 280, 100, 100);
+	ellipse(320, 200, 80, 80);
+	ellipse(320, 140, 60, 60);
+>>>>>>> PUCD2035-E-F15/master
 }
