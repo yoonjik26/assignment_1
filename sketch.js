@@ -175,14 +175,12 @@ rect (151, 325, 35, 11, 3, 3, 3, 3);
 	rect (145, 150, 10, 5);
 	fill (0, 0, 0)
 	// draw a circle
-<<<<<<< HEAD
+ HEAD
 	ellipse (130, 150, 5, 5);
 	ellipse (170, 150, 5, 5);
 	fill (236, 134, 140)
 	ellipse (150, 180, 10, 15);
-=======
-	ellipse(320, 280, 100, 100);
-	ellipse(320, 200, 80, 80);
-	ellipse(320, 140, 60, 60);
->>>>>>> PUCD2035-E-F15/master
+
+
+ PUCD2035-E-F15/master
 }
